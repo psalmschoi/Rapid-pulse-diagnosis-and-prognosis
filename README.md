@@ -10,7 +10,9 @@ Kim, Inwoo; An, Seongha; Choi, Jang Wook (2025), “The Dataset for: Rapid and n
 **Code overview**
 
 From the main directory, run the following commands.
+
 For all .py scripts, use the command format: python -m <filename>
+
 Place the file SOC_Point_Data.csv in the same directory as the Jupyter notebook before running the deep learning model.
 
 
