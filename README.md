@@ -16,7 +16,7 @@ For all .py scripts, use the command format: python -m <filename>
 Place the file SOC_Point_Data.csv in the same directory as the Jupyter notebook before running the deep learning model.
 
 
-Scripts
+[Scripts]
 - Pulse_Extractor.py: Data processing of SOC-dependent relaxation voltage from relaxation data at each RPT point (excluding the final RPT).
 - Final_Pulse_Extractor.py: Data processing of SOC-dependent relaxation voltage from relaxation data at the final RPT.
 - Grid_Search_Optimize.py: Calculation of Pearson correlation coefficients between time & SOC ranges and current & future SOH.
@@ -24,14 +24,14 @@ Scripts
 - Final_Clustering.py: Execution of unsupervised clustering.
 
 
-Plotting
+[Plotting]
 - Show_Single_Pulse.py: Plotting SOC-dependent relaxation voltage for a specific cell.
 - Show_Individual_Retention.py: Plotting capacity retention for a specific cell.
 - Show_Anomal_Retention.py: Comparative plotting of retention across cells subjected to the same usage scenario.
 - Show_Whole_Retention.py: Plotting capacity retention for all cells.
 
 
-Deep learning modeling
+[Deep learning modeling]
 - Processed input_MLP.ipynb: Capacity prediction with MLP based on PIOV features.
 - Raw input_2D CNN_MLP.ipynb: Data-driven feature extraction using 2D CNN, followed by capacity prediction with MLP.
 - Raw input_EN_MLP.ipynb: Data-driven feature extraction using elastic net (EN), followed by capacity prediction with MLP.
