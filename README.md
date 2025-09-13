@@ -1,5 +1,5 @@
 # Rapid and non-destructive diagnosis of lithium-ion batteries via quantification of anode spatial degradation
-These are the codes for the paper:Rapid and non-destructive diagnosis of lithium-ion batteries via quantification of anode spatial degradation. Inwoo Kim, Seongha An, Jang Wook Choi
+These are the codes for the paper: Rapid and non-destructive diagnosis of lithium-ion batteries via quantification of anode spatial degradation. Inwoo Kim, Seongha An, Jang Wook Choi
 
 
 **Data preparation**
