@@ -2,9 +2,11 @@
 These are the codes for the paper:Rapid and non-destructive diagnosis of lithium-ion batteries via quantification of anode spatial degradation. Inwoo Kim, Seongha An, Jang Wook Choi
 
 **Data preparation**
+
 Kim, Inwoo; An, Seongha; Choi, Jang Wook (2025), “The Dataset for: Rapid and non-destructive diagnosis of lithium-ion batteries via quantification of anode spatial degradation”, Mendeley Data, V1, doi: 10.17632/p5vbbytz3x.1
 
 **Code overview**
+
 From the main directory, run the following commands.
 For all .py scripts, use the command format: python -m <filename>
 Place the file SOC_Point_Data.csv in the same directory as the Jupyter notebook before running the deep learning model.
