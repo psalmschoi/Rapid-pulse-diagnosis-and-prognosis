@@ -22,7 +22,8 @@ Place the file SOC_Point_Data.csv in the same directory as the Jupyter notebook 
 - Grid_Search_Optimize.py: Calculation of Pearson correlation coefficients between time & SOC ranges and current & future SOH.
 - Calculate_PIOV.py: Calculation of pulse-induced overvoltage (PIOV)
 - Final_Clustering.py: Execution of unsupervised clustering.
-
+- DCIR_Extractor.py: Data processing of SOC-dependent DCIR from pulse data at each RPT point (excluding the final RPT)
+- dVdQ_Extractor.py: Data processing of Differnetial Voltage (DV) from discharge data at each RPT point (excluding the final RPT)
 
 [Plotting]
 - Show_Single_Pulse.py: Plotting SOC-dependent relaxation voltage for a specific cell.
@@ -31,8 +32,19 @@ Place the file SOC_Point_Data.csv in the same directory as the Jupyter notebook 
 - Show_Whole_Retention.py: Plotting capacity retention for all cells.
 
 
-[Deep learning modeling]
+[Modeling]
 - Processed input_MLP.ipynb: Capacity prediction with MLP based on PIOV features.
+- Processed input_SVR.ipynb: Capacity prediction with SVR based on PIOV features.
+- Processed input_XGB.ipynb: Capacity prediction with XGBoost based on PIOV features.
+- Processed input_GRU_MLP.ipynb: Capacity prediction with GRU based on PIOV features.
+- Processed input_1D CNN_MLP.ipynb: Capacity prediction with 1D CNN based on PIOV features.  
 - Raw input_2D CNN_MLP.ipynb: Data-driven feature extraction using 2D CNN, followed by capacity prediction with MLP.
 - Raw input_EN_MLP.ipynb: Data-driven feature extraction using elastic net (EN), followed by capacity prediction with MLP.
 - Raw input_GRU_MLP.ipynb: Data-driven feature extraction using GRU, followed by capacity prediction.
+- DCIR input_SVR.ipynb: Capacity prediction with SVR based on DCIR features.
+- dVdQ input_SVR.ipynb: Capacity prediction with SVR based on DV features.
+- Combination DCIR input_SVR.ipynb: Capacity prediction with SVR based on PIOV and DCIR features.
+- Combination dVdQ input_SVR.ipynb: Capacity prediction with SVR based on PIOV and DV features.
+- Processed input_MLP_Domain M.ipynb: Transfer learning-based capacity prediction for target domain M, adapting a source model trained on domains D and H by fine-tuning a subset of parameters.
+- Processed input_MLP_Domain D.ipynb: Transfer learning-based capacity prediction for target domain D, adapting a source model trained on domains H and M by fine-tuning a subset of parameters.
+- Processed input_MLP_Domain H.ipynb: Transfer learning-based capacity prediction for target domain H, adapting a source model trained on domains M and D by fine-tuning a subset of parameters.
